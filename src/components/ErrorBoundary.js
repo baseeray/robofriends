@@ -16,6 +16,6 @@ class ErrorBoundary extends Component {
         this.setState({ hasError: true });
         console.log(error, info);
     }
-} 
+}
 
 export default ErrorBoundary;
